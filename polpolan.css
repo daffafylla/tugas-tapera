@@ -1,0 +1,187 @@
+.navbar { 
+    background-color: grey; 
+    padding: 10px; 
+} 
+
+.navbar ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+} 
+
+.navbar li { 
+    margin: 0 20px; 
+} 
+
+.navbar a { 
+    color: white; 
+    text-decoration: none; 
+
+} 
+
+.navbar1 h1 { 
+    background-color: white; 
+    text-align: center; 
+} 
+.card{ 
+    background-color: white; 
+    background-size: 300px; 
+    display: flex; 
+    gap: 10px; 
+    margin-left: 28%; 
+    margin-right: 28%; 
+} 
+.image{ 
+    background-image: url(./asset/6145397691866267327\ \(6\).jpg); 
+    padding: 100px; 
+    background-size: cover; 
+    border-radius: 15px; 
+     
+} 
+
+.image img{ 
+    margin-left: 15px; 
+} 
+.dapur{ 
+    background-image: url(./asset/6145397691866267328.jpg); 
+    background-size: cover; 
+    padding: 100px; 
+    border-radius: 15px; 
+} 
+.dapur img{ 
+    margin-left: 15%; 
+} 
+ 
+.nyala button{ 
+    width: 125px; 
+    height: 30px; 
+    background-color: burlywood; 
+    color: white; 
+    border-radius: 15px; 
+} 
+.nyala1 button{ 
+    width: 70px; 
+    height: 50px; 
+    background-color: burlywood; 
+    color: white; 
+    border-radius: 15px; 
+
+} 
+.nyala1{ 
+    display: flex; 
+    gap: 10px; 
+} 
+.card1{ 
+    background-color: coral; 
+    width: 680px; 
+    height: 230px; 
+    margin-left: 28%; 
+    margin-right: 28%; 
+    border-radius: 15px; 
+} 
+.umur{ 
+    text-align: center; 
+    padding-top: 5%; 
+} 
+.umur input{ 
+    border-radius: 15px; 
+    width: 400px; 
+    height: 40px; 
+    text-align: center; 
+} 
+.umur button{ 
+    background-color: orangered; 
+    color: white; 
+    width: 70px; 
+    height: 45px; 
+    border-radius: 15px; 
+} 
+.card2{ 
+    background-color: coral; 
+    width: 680px; 
+    height: 230px; 
+    margin-left: 28%; 
+    margin-right: 28%; 
+    border-radius: 15px; 
+} 
+.number{ 
+    text-align: center; 
+    padding-top: 5%; 
+} 
+.number input{ 
+    border-radius: 15px; 
+    width: 400px; 
+    height: 40px; 
+    text-align: center; 
+} 
+.number button{ 
+    background-color: orangered; 
+    color: white; 
+    width: 70px; 
+    height: 45px; 
+    border-radius: 15px; 
+} 
+.card3{ 
+    background-color: coral; 
+    width: 680px; 
+    height: 300px; 
+    margin-left: 28%; 
+    margin-right: 28%; 
+    border-radius: 15px; 
+} 
+.calculator{ 
+    text-align: center; 
+    padding-top: 5%; 
+} 
+.calculator input{ 
+    border-radius: 15px; 
+    width: 300px; 
+    height: 40px; 
+    text-align: center; 
+} 
+.calculator select{ 
+    border-radius: 15px; 
+    width: 300px; 
+    height: 40px; 
+    text-align: center; 
+} 
+.calculator button{ 
+    background-color: orangered; 
+    color: white; 
+    width: 70px; 
+    height: 45px; 
+    border-radius: 15px; 
+} 
+.card4{ 
+    background-color: coral; 
+    width: 680px; 
+    height: 300px; 
+    margin-left: 28%; 
+    margin-right: 28%; 
+    border-radius: 15px; 
+} 
+.convert{ 
+    text-align: center; 
+    padding-top: 5%; 
+} 
+.convert input{ 
+    border-radius: 15px; 
+    width: 300px; 
+    height: 40px; 
+    text-align: center; 
+} 
+.convert select{ 
+    border-radius: 15px; 
+    width: 300px; 
+    height: 40px; 
+    text-align: center; 
+} 
+.convert button{ 
+  color: white;
+  border-radius: 15px;
+  height: 45px;
+  width: 75px;
+  background-color:orangered
+  
+}

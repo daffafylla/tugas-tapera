@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>end off prabootcamp</title> 
+    <link rel="stylesheet" href="polpolan.css">
+
+</head> 
+<body> 
+    <div class="container"> 
+        <nav class="navbar"> 
+            <ul> 
+                <li><a href="">Home</a></li> 
+                <li><a href="">JavaScript</a></li> 
+                <li><a href="#development">Lampu</a></li> 
+                <li><a href="#1">Tebak umur</a></li>
+                <li><a href="#2">Tebak Angka</a></li> 
+                <li><a href="#3">Kalkulator</a></li> 
+                <li><a href="#4">Temperature</a></li> 
+            </ul> 
+        </nav> 
+        <br> 
+        <br> 
+        <div class="card"> 
+            <div class="image"> 
+                <div class="animasi"> 
+                    <img id="button" src="asset/pic_bulboff.gif" alt=""> 
+                </div> 
+                <br> 
+                <div class="nyala"> 
+                    <button onclick="a()">Nyalakan Lampu</button> 
+                </div> 
+            </div> 
+            <div class="dapur"> 
+               <img id="button1" src="asset/pic_bulboff.gif" alt="">
+                <div class="nyala1"> 
+                    <button onclick="b() ">Nyalakan Lampu</button> 
+                    <button onclick="c()">Matikan Lampu</button> 
+                </div> 
+            </div> 
+        </div> 
+        <br> 
+        <div id="1" class="card1"> 
+            <div class="umur"> 
+                <label for="username"><h1>Check Umur</h1></label> 
+                <br> 
+                <input id="angka" type="number" placeholder="masukkan umur mu"> 
+                <button type="button" onclick="angka()">Check</button> 
+                <h3  id="hasil_umur"></h3 >
+            </div> 
+        </div> 
+        <br> 
+        <div id="2" class="card2"> 
+            <div class="number"> 
+                <label for="username"><h1>Guess The Number</h1></label> 
+                <br> 
+                <input id="guess" type="text" placeholder="enter your guess"> 
+                <button onclick="tebak()" type="button">Guess</button> 
+                <h3 id="hasil_guess"></h3>
+            </div> 
+        </div> 
+        <br> 
+        <div id="3" class="card3"> 
+            <div class="calculator"> 
+                <label for="username"><h1>Calculator</h1></label> 
+                <br> 
+                <input type="number" id="num1" placeholder="masukkan angka pertama"> 
+                <input type="number" id="num2" placeholder="masukkan angka ke 2"> 
+                <br> 
+                <br> 
+                <select  id="operator"> 
+                    <option value="+">+</option> 
+                    <option value="-">-</option> 
+                    <option value="*">*</option> 
+                    <option value="%">%</option> 
+                </select> 
+                <button onclick="calculator()">Hitung</button> 
+                <h3 id="result"></h3>
+            </div> 
+        </div> 
+        <br> 
+        <div id="4" class="card4"> 
+            <div class="convert"> 
+                <label for="username"><h1>Temperature convert</h1></label> 
+                <br> 
+                <input type="username" id="tempValue" placeholder="enter temperature"> 
+                <select id="tempUnit"> 
+                    <option value="c">celsius to fahrenheit</option> 
+                    <option value="f">fahrenheit to celsius</option> 
+                    <option value="r">celsius to reamur</option> 
+                    <option value="rc">reamur to celsius</option> 
+                    <option value="k">celsius to kelvin</option> 
+                    <option value="kc">kelvin to celsius</option> 
+                </select> 
+                <button onclick="convertTemperature()">Convert</button>
+                <p id="tempResult"></p>
+                <br> 
+                <br> 
+            </div> 
+        </div> 
+    </div> 
+<script src="finaltugas.js"></script>
+</body>
+
+    
